@@ -15,6 +15,12 @@ Isoforms are described relative to reference transcripts (provided by user) by a
 
 ![SOSTAR_pipeline](./images/SOSTAR_pipeline.png)
 
+If you use SOSTAR in your work, please cite:
+> Aucouturier, C., Soirat, N., Castéra, L. et al. Fine mapping of RNA isoform diversity using an innovative targeted long-read RNA sequencing protocol with novel dedicated bioinformatics pipeline. BMC Genomics 25, 909 (2024).
+> https://doi.org/10.1186/s12864-024-10741-0
+
+
+
 # Requirements
 
 This pipeline is a **Snakemake workflow**. 
