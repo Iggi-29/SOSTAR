@@ -4,7 +4,14 @@ import glob
 import argparse
 import pandas as pd
 
+import sys
+import subprocess
 
+try:
+    import openpyxl
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
+    import openpyxl
 
 def get_arguments():
     parser = argparse.ArgumentParser()
