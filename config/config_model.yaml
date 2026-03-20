@@ -1,0 +1,46 @@
+# reference files
+refs:
+  genome: /imppc/labs/eclab/Resources/MINION_ddbb/Ref_files/GRCh38.primary_assembly.genome.fa
+  ensembl_annot: /imppc/labs/eclab/Resources/MINION_ddbb/Ref_files/gencode.v46.chr_patch_hapl_scaff.basic.annotation.gtf
+  transcripts_list: /imppc/labs/eclab/ijarne/0_Recerca/pipelines/sostar/SOSTAR_reffernce/trans_list.txt
+
+#directories
+dirs:
+  indir: /imppc/labs/eclab/ijarne/0_Recerca/pipelines/sostar/SOSTAR_input
+  outdir: /imppc/labs/eclab/ijarne/0_Recerca/pipelines/sostar/SOSTAR_output_IGTP_all_samples
+
+#samples
+samples:
+- barcode04     
+- barcode06   
+- barcode09    
+- barcode10    
+- barcode11    
+- barcode13    
+- barcode14
+- barcode324
+- barcode322
+- barcode423
+- barcode321
+- barcode417
+- barcode416
+- barcode414
+- barcode320
+- barcode317
+- barcode316
+- barcode413
+- barcode15
+- barcode415
+- barcode509
+- barcode511
+- barcode512
+- barcode513
+- barcode518
+- barcode519
+
+#threads
+threads: 20
+
+#options
+options:
+  bedtools: true
