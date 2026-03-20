@@ -10,7 +10,7 @@ include: "rules/annotation.smk"
 
 ##### Setup Singularity #####
 # with --use-singularity
-container: "docker://aucam/lorid:latest"
+container: "/imppc/labs/eclab/ijarne/0_Recerca/pipelines/sostar/SOSTAR/sing/lorid_latest.sif"
 
 ######## Target rule ########
 rule all:
