@@ -170,3 +170,14 @@ sing/*
 
 # cluster errs and logs
 workflow/*.err
+
+# individual analysis
+workflow/for_indivifual_analysis/*
+workflow/individual_errs_and_logs/
+
+# dags
+workflow/dag.pdf
+
+# sh work on cluster
+workflow/dag.pdf
+workflow/Sostar_in_cluster.sh

@@ -4,14 +4,14 @@
 # Execute from the current workig dir
 #$ -cwd
 # Name for the script in the queuing system
-#$ -N SOSTAR_IGTP
+#$ -N SOSTAR_IGTP_individual
 # In order to load the environment variables and your path
 # You can either use this or do a : source /etc/profile
 #$ -V
 # You can redirect the error output to a specific file
-#$ -e SOSTAR_IGTP.err
+#$ -e SOSTAR_IGTP_individual.err
 # You can redirect the output to a specific file
-#$ -o SOSTAR_IGTP.log
+#$ -o SOSTAR_IGTP_individual.log
 #$ -pe smp 10
 #$ -q d10imppcv3  # los nodos nuevos!
 #$ -l h_vmem=9G
